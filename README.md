@@ -2,7 +2,7 @@
 
 Une API puissante pour le téléchargement multimédia et les outils IA, développée avec ❤️ par **Précieux Développeur**.
 
-![AZURA API Banner](https://via.placeholder.com/1200x400/4f46e5/ffffff?text=AZURA+API)
+![AZURA API Banner](https://raw.githubusercontent.com/AkiraDevX/uploads/main/uploads/1767454349524_108341.jpeg)
 
 ## ✨ Fonctionnalités
 
