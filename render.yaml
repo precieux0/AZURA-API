@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: azura-api
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3000
+      - key: RATE_LIMIT_WINDOW_MS
+        value: 900000
+      - key: RATE_LIMIT_MAX_REQUESTS
+        value: 100
+    disk:
+      name: temp-storage
+      mountPath: /opt/render/project/src/temp
+      sizeGB: 1
+    healthCheckPath: /api/v1
+    autoDeploy: true
