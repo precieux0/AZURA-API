@@ -105,4 +105,4 @@ router.post('/ai/gemini', AIToolsController.gemini);
 router.post('/ai/generate-image', AIToolsController.generateImage);
 router.get('/ai/models', AIToolsController.listModels);
 
-export default router;'
+export default router;
